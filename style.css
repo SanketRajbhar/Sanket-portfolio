@@ -139,7 +139,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid var(--color-border);
-   backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
 }
 
 header h1 {
@@ -340,17 +340,100 @@ header ul li:last-of-type:hover {
 
 } */
 
-.about-me{
+.about-me {
     background-color: var(--color-bg-section);
-    padding: 60px 60px ;
+    padding: 60px 60px;
     margin-bottom: 40px;
 }
 
-.about-me h2{
+.about-me h2 {
     border-left: 6px solid var(--color-accent);
     padding-left: 20px;
     text-transform: uppercase;
     font-family: var(--font-display);
     font-size: 3.5rem;
     margin-bottom: 40px;
+}
+
+
+.inquiry {
+    background-color: var(--color-bg-footer);
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.a {
+    width: 50%;
+}
+
+.a1 h3 {
+    border-left: 6px solid var(--color-secondary);
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    color: var(--color-accent);
+}
+
+.a1 h4 {
+
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.a1 p {
+    font-family: var(--font-body);
+    color: var(--color-text-body);
+
+}
+
+.a1 > div {
+    background-color: var(--color-surface-muted);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    align-items: center;
+}
+
+
+.a1 div div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+
+.b {
+    width: 50%;
+    /* border: 1px solid white; */
+    padding: 70px 50px;
+    border-radius: 20px;
+    background-color: var(--color-bg-base);
+
+}
+
+.b h3{
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+}
+
+.b p {
+    font-family: var(--font-body);
+    padding-bottom: 50px;
+    font-size: .8rem;
+}
+
+.b form label {
+    background-color: #06b6d4;
+    
 }
